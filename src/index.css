@@ -1,0 +1,14 @@
+/*! ****************Para todas las Etiquetas Generales**************** esp 1 */
+
+*:root {
+  font-family: 'Manrope';
+}
+
+em {
+  font-style: normal;
+  color: #2C7EF8 ;
+}
+
+del {
+  color: #969696;
+}

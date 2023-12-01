@@ -1,0 +1,57 @@
+.disFlex {
+    display: flex;
+}
+
+.aliItmCen {
+    align-items: center;
+}
+
+.jusContCen {
+    justify-content: center;
+}
+
+.jusContSb {
+    justify-content: space-between;
+}
+
+.headerIcons {
+    min-width: 320px;
+    height: 60px;
+}
+  
+.headerIcons article {
+    min-width: 320px;
+    width: 88%;
+}
+  
+.headerIcons div {
+    width: 101px;
+}
+@media (min-width:1400px) {
+  .headerIcons {
+    height: 96px;
+    /* width: calc(100% - 255px); */
+    padding-left: calc((100% - 1245px) / 2);
+    padding-right: calc((100% - 1245px) / 2);
+  }
+  
+  .headerIcons img[alt="Clarifion"] {
+    height: 36px;
+    width: 192px;
+  }
+  
+  .headerIcons img[alt$="Logo"]{
+    height: 32px;
+  }
+  
+  .headerIcons article {
+    min-width: 1145px;
+    width: 100%;
+
+  }
+  
+  .headerIcons div {
+    width: 202px;
+  }
+  
+}

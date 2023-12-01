@@ -1,0 +1,42 @@
+.bgBlue {
+  background-color: #252F3D;
+}
+.disFlex {
+  display: flex;
+}
+.flexDirRow {
+  flex-direction: row;
+}
+.jusContSb {
+  justify-content: space-between;
+}
+.aliItmCen {
+  align-items: center;
+}
+.headerBenefits {
+    min-width: 320px;
+    height: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .headerBenefits article {
+    font-weight: 500;
+    min-width: 227px;
+    height: 22px;
+  }
+  
+  .headerBenefits small {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 9px;
+    letter-spacing: 0em;
+  }
+
+@media (min-width: 1400px) { 
+  .headerBenefits {
+    height: 50px;
+    padding-left: calc((100% - 1245px) / 2);
+    padding-right: calc((100% - 1245px) / 2);
+  }
+}

@@ -1,0 +1,66 @@
+.container1 {
+    width: 575px;
+    height: 879px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.container2 {
+    width: 550px;
+    height: 799px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.container1 section {
+    height: 138px;
+    width: 527px;
+    padding: 24px
+}
+
+.container1 section div {
+    width: 237px;
+    height: 48px;
+    margin-bottom: 18px;
+}
+
+.container1 section p {
+    text-align: start;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.container1 section div aside {
+    width: 176px;
+    height: 35.3px;
+    margin-left: 13px;
+    display: flex;
+    align-items: start;
+}
+
+.container1 section div aside header {
+    margin-bottom: 7px;
+    width: 78.11px;
+}
+
+.container section div footer {
+    width: 176px;
+    height: 16px;
+}
+
+.container1 section div aside footer p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding-right: 10px;
+}
