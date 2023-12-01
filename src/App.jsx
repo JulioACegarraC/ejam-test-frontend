@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useMediaQuery } from 'react-responsive';
 
-import Header from './components/header/header'
+import Header from './components/header/Header'
 import IsBigScreen from "./components/is-big-screen/IsBigScreen";
 
 import './App.css'
